@@ -2,7 +2,7 @@ name: 🌺 Auto-Post to Social Media
 
 on:
   schedule:
-    # Run twice daily - 2 PM and 7 PM UTC
+   # Run twice daily - 2 PM and 7 PM UTC
     - cron: '0 14 * * *'
     - cron: '0 19 * * *'
   
